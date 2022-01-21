@@ -1,5 +1,6 @@
 package com.spartronics4915.frc.commands;
 
+import com.spartronics4915.frc.Constants;
 import com.spartronics4915.frc.subsystems.ExampleSubsystem;
 import com.spartronics4915.lib.util.Logger;
 
@@ -26,7 +27,7 @@ public class ExampleCommand extends CommandBase
     // Called when the command is initially scheduled.
     @Override
     public void initialize() {
-        mExampleSubsystem.startTestMotor(0.3);
+        mExampleSubsystem.startTestMotor(Constants.kTestMotorSpeed);
     }
 
     // Called every time the scheduler runs while the command is scheduled.
