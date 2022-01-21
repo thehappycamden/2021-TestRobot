@@ -58,4 +58,10 @@ public class JoystickMotor extends SpartronicsSubsystem
     {
         return mJoystick;
     }
+
+    public void outputTelemetry()
+    {
+        // TODO Auto-generated method stub
+
+    }
 }
